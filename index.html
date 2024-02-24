@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\duda\Desktop\PROJETO\to-do-list\styles.css">
+    <title>To do list Duda</title>
+</head>
+
+<body><!--CORPO DA PÁGINA-->
+    <h1>To do list | DUDA</h1><!--TÍTULO PRINCIPAL-->
+    <div class="content">
+        <!--DIV QUE VAI ENGLOBAR TODO O COPO DA APLICAÇÃO-->
+        <div class="content_item">
+            <!--DIV RESPONSAVEL PELO INPUT E PELO BOTÃO-->
+            <input type="text" id="input_new-task" placeholder="Digite sua nova tarefa"><!--CAIXA DE ENTRATA DE TEXTO-->
+            <button onclick="newTask()" id="btn_new_task" title="Clique aqui"><!--BOTÃO PARA ADICIONAR AS TAREFAS-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                  </svg>
+            </button>
+        </div>
+        <div class="content_body">
+            <!--DIV RESPONSÃVEL PELA LISTA-->
+            <ul id="to_do_list"></ul>
+        </div>
+    </div>
+</body>
+<script src="C:\Users\duda\Desktop\PROJETO\to-do-list\script.js"></script>
+</html>
